@@ -9,6 +9,8 @@
 // @grant        GM.xmlHttpRequest
 // @connect      wds-translation.littletoxic.top
 // @run-at       document-start
+// @updateURL    https://raw.githubusercontent.com/littletoxic/wds-translation/master/load.js
+// @downloadURL  https://raw.githubusercontent.com/littletoxic/wds-translation/master/load.js
 // ==/UserScript==
 
 (function () {
