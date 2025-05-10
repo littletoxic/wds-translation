@@ -59,7 +59,7 @@
     function applyTranslation(episodes, translated) {
         episodes.forEach((episode, index) => {
             episode.SpeakerName !== undefined && (episode.SpeakerName = translated[index].SpeakerName);
-            episode.Phrase !== undefined && (episode.Phrase = translated[index].Phrase);
+            episode.Phrase !== undefined && (episode.Phrase = translated[index].Phrase.replaceAll('—', '―'));
         });
     }
 
