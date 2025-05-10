@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         wds 剧情翻译加载
 // @namespace    http://tampermonkey.net/
-// @version      2025-04-19
+// @version      2025-05-11
 // @description  使用 World Dai Star 的第三方剧情阅读器时，会自动从 wds-translation.littletoxic.top 加载缓存的翻译并替换掉原文
 // @author       littletoxic
 // @match        https://cpk0521.github.io/WDS_Adv_Player*
